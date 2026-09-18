@@ -1,4 +1,4 @@
-import type { PresignRequest, PresignResponse } from "../types/types";
+import type { PresignRequest, PresignResponse } from "./types";
 
 const PRESIGN_ENDPOINT = import.meta.env.VITE_PRESIGN_ENDPOINT as string;
 
