@@ -19,7 +19,7 @@ export async function requestPresignedUrl(
 ): Promise<PresignResponse> {
   const res = await fetch(PRESIGN_ENDPOINT, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "text/csv" },
     body: JSON.stringify(req),
   });
 
